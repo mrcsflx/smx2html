@@ -1,0 +1,26 @@
+.row{
+    width: 100%;
+    border: 1px solid #000000;
+    display: flex;
+}
+
+.col2{
+    width: 50%;
+    border: 1px solid #FF0000;
+}
+
+.col4{
+    width: 25%;
+    border: 1px solid #FFFF00;
+}
+
+
+@media screen and (max-width: 700px){
+    .col2{
+        width: 100%;
+    }
+
+    .col4{
+        width: 50%;
+    }
+}
